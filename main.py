@@ -24,12 +24,15 @@ for el in song.recurse().notesAndRests:
         # ignore grace
         continue
     elif el.isNote:
+        octave = el.pitch.octave
         if el.pitch.accidental is not None and el.pitch.accidental.modifier == "#":
             # sharp note
-            step = el.pitch.step
-            if step == "B":
-                # convert B# to C
+            if el.pitch.step == "B":
+                # convert B#x to C(x+1)
                 step = "c"
+                octave += 1
+            else:
+                step = el.pitch.step
         elif el.pitch.accidental is not None and el.pitch.accidental.modifier == "-":
             # flat note
             # normalize to equivalent sharp note
@@ -40,7 +43,7 @@ for el in song.recurse().notesAndRests:
 
         duration = getDurationIndex(el)
 
-        result += f"{step}{el.pitch.octave}{duration} "
+        result += f"{step}{octave}{duration} "
     elif el.isRest:
         duration = getDurationIndex(el)
         result += f"-={duration} "
