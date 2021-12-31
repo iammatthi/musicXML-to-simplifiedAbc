@@ -3,7 +3,7 @@ import math
 
 
 def getDurationIndex(el):
-    return int(math.log2(2 / el.duration.quarterLength))
+    return int(math.log2(4 / el.duration.quarterLength))
 
 
 filePath = input("Enter MusicXML file path: ")
