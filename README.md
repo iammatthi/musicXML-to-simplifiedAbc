@@ -4,7 +4,7 @@ I don't know music theory, which implies that there may be inaccuracies in the c
 
 # MusicXML to simplified abc notation
 
-Tool to convert MusicXML file into a simplified abc notation.
+Tool to convert MusicXML into a simplified abc notation.
 
 ## Simplified abc notation syntax
 
