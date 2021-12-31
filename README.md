@@ -14,11 +14,11 @@ General syntax: `[note][duration]`
 
 #### Natutal notes
 
-`[pitch step lowercase][pitch octave][duration]`
+`[pitch step lowercase][pitch octave]`
 
 #### Sharp notes
 
-`[pitch step UPPERCASE][pitch octave][duration]`
+`[pitch step UPPERCASE][pitch octave]`
 
 #### Flat notes
 
@@ -26,7 +26,7 @@ Flat notes are converted into equivalent sharp notes.
 
 #### Rest
 
-`[-=][duration]`
+`[-=]`
 
 ### Duration
 
