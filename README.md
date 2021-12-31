@@ -46,6 +46,5 @@ pip install -r ./requirements.txt
 ```
 > py main.py
 Enter MusicXML file path: example.xml
-d51 -=2 a42 d51 -=2 a42 d52 a42 d52 F52 a51 -=1 g51 -=2 e52 g51 -=2 e52 g52 e52 C52 e52 a41 -=1 d51 d50 F52 e52 d52 d52 C52 C50 e52 g52 C52 e52 d52 d50 F52 e52 d52 d52 C52 C50 e52 g52 C52 d52 d52 d53 C53 b43 C53 d52 d52 F53 e53 d53 
-e53 F52 F52 a53 g53 F53 g53 a51 -=1
+d52 -=3 a43 d52 -=3 a43 d53 a43 d53 F53 a52 -=2 g52 -=3 e53 g52 -=3 e53 g53 e53 C53 e53 a42 -=2 d52 d51 F53 e53 d53 d53 C53 C51 e53 g53 C53 e53 d53 d51 F53 e53 d53 d53 C53 C51 e53 g53 C53 d53 d53 d54 C54 b44 C54 d53 d53 F54 e54 d54 e54 F53 F53 a54 g54 F54 g54 a52 -=2
 ```
