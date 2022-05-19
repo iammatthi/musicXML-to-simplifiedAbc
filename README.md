@@ -31,7 +31,7 @@ Flat notes are converted into equivalent sharp notes.
 ### Duration
 
 The duration is calculated as <br>
-$$\log_2 \left( \frac{2}{\text{quarterLength}} \right)$$
+$$\log_2 \left( \frac{4}{\text{quarterLength}} \right)$$
 so that it represents an index of an array with the following structure: `[1,1/2,1/4,1/8,1/16,...]`
 
 ## Installation
