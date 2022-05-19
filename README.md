@@ -31,7 +31,7 @@ Flat notes are converted into equivalent sharp notes.
 ### Duration
 
 The duration is calculated as <br>
-![equation](https://latex.codecogs.com/gif.image?%5Cdpi%7B110%7D%20%5Clog_2%5Cleft(%5Cfrac%7B2%7D%7B%5Ctext%7BquarterLength%7D%7D%5Cright)) <br>
+$$\log_2 \left( \frac{2}{\text{quarterLength}} \right)$$
 so that it represents an index of an array with the following structure: `[1,1/2,1/4,1/8,1/16,...]`
 
 ## Installation
